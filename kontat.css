@@ -1,0 +1,18 @@
+.content{
+    border: 1px green solid;
+    background-color: green;
+    width: 13%;
+    border-radius: 5px;
+    position: absolute;
+    left: 60%;
+    
+ 
+}
+.con{
+  
+    align-items: center;
+    display: flex;
+   justify-content: center;
+   
+}
+

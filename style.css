@@ -1,0 +1,40 @@
+
+.img-hotel{
+    margin: 0%;
+    grid-column: 1 / -1;
+   
+    
+    
+    width: 100%;
+    height: 100%;
+   
+    object-fit: cover;
+
+    animation: header-image-animacion linear forwards;
+    animation-timeline: view() ;
+    animation-range: exit;
+   
+}
+@keyframes header-image-animacion{
+    25% {opacity: 1; }
+    85%, 100% {opacity: 0; scale: 3; }
+}
+#scrollToTopBtn {
+    animation: fadeIn 0.5s ease-in-out forwards;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #9ACD32;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+
+
+
+
